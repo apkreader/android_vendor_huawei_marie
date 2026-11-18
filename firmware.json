@@ -5,12 +5,27 @@
     {
       "name": "vendor.img",
       "size": 432130816,
-      "sha256": "17ee9a77f88c325ad707ea1d8f57824483294850f55d02ec2ad1c82622cab2be"
+      "sha256": "17ee9a77f88c325ad707ea1d8f57824483294850f55d02ec2ad1c82622cab2be",
+      "raw_size": 503316480,
+      "raw_sha256": "aaac9a2dae76a7bfc4a77810309e04d70244e5b214d7474f18e6b88a215a7472",
+      "prepared_sha256": "7b9f1d1fc820b01b77048eea4d85f6f4559655184070f46b750bedb340cbea55"
     },
     {
       "name": "odm.img",
       "size": 89886836,
       "sha256": "414e931f007cd6caca625b70138ba4438ca8a6bbd6ca6ab95df5aa5afd2c9e78"
     }
-  ]
+  ],
+  "selinux": {
+    "plat_pub_versioned.cil": {
+      "nid": 5416704,
+      "sha256": "21a551a71c85bb0cb4f58bf72685af5f555479433f24a4f33a2c45aff59cc142",
+      "capability_references": 6
+    },
+    "vendor_sepolicy.cil": {
+      "nid": 5416543,
+      "sha256": "e033718155d3089d23566d0d86cfb55002e7a3caa83c7b3d22784af0b28d06b6",
+      "capability_references": 1
+    }
+  }
 }
