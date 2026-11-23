@@ -1,0 +1,44 @@
+// Copyright (C) 2026 apkreader
+// SPDX-License-Identifier: MIT
+
+install_symlink {
+    name: "marie_mesa_libEGL_mali_64",
+    vendor: true,
+    installed_location: "lib64/egl/libEGL_mali.so",
+    symlink_target: "libEGL_mesa.so",
+}
+
+install_symlink {
+    name: "marie_mesa_libGLESv1_CM_mali_64",
+    vendor: true,
+    installed_location: "lib64/egl/libGLESv1_CM_mali.so",
+    symlink_target: "libGLESv1_CM_mesa.so",
+}
+
+install_symlink {
+    name: "marie_mesa_libGLESv2_mali_64",
+    vendor: true,
+    installed_location: "lib64/egl/libGLESv2_mali.so",
+    symlink_target: "libGLESv2_mesa.so",
+}
+
+install_symlink {
+    name: "marie_mesa_libEGL_mali_32",
+    vendor: true,
+    installed_location: "lib/egl/libEGL_mali.so",
+    symlink_target: "libEGL_mesa.so",
+}
+
+install_symlink {
+    name: "marie_mesa_libGLESv1_CM_mali_32",
+    vendor: true,
+    installed_location: "lib/egl/libGLESv1_CM_mali.so",
+    symlink_target: "libGLESv1_CM_mesa.so",
+}
+
+install_symlink {
+    name: "marie_mesa_libGLESv2_mali_32",
+    vendor: true,
+    installed_location: "lib/egl/libGLESv2_mali.so",
+    symlink_target: "libGLESv2_mesa.so",
+}
