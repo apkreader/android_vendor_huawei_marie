@@ -12051,28 +12051,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-cc_prebuilt_binary {
-    name: "android.hardware.usb@1.0-service_marie",
-    check_elf_files: false,
-    system_shared_libs: [],
-    installable: false,
-    stem: "android.hardware.usb@1.0-service",
-    owner: "huawei",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.usb@1.0-service",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
 
 cc_prebuilt_binary {
     name: "rild_marie",

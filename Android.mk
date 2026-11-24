@@ -24,7 +24,6 @@ ETC.marie-vendor-manifest.OVERRIDES += \
     android.hardware.secure_element@1.0-service \
     android.hardware.thermal@1.0-impl \
     android.hardware.thermal@1.0-service \
-    android.hardware.usb@1.0-service \
     audio.r_submix.default \
     audio.usb.default \
     boringssl_self_test_vendor \

@@ -2245,7 +2245,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/marie/proprietary/vendor/etc/init/android.hardware.memtrack@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.memtrack@1.0-service.rc \
     vendor/huawei/marie/proprietary/vendor/etc/init/android.hardware.secure_element@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.0-service.rc \
     vendor/huawei/marie/proprietary/vendor/etc/init/android.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@1.0-service.rc \
-    vendor/huawei/marie/proprietary/vendor/etc/init/android.hardware.usb@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.0-service.rc \
     vendor/huawei/marie/proprietary/vendor/etc/init/bsoh.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bsoh.rc \
     vendor/huawei/marie/proprietary/vendor/etc/init/charger/init.chip.charger.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/charger/init.chip.charger.rc \
     vendor/huawei/marie/proprietary/vendor/etc/init/charger/init.chip.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/charger/init.chip.usb.rc \
@@ -2994,7 +2993,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/marie/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service \
     vendor/huawei/marie/proprietary/vendor/bin/hw/android.hardware.secure_element@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element@1.0-service \
     vendor/huawei/marie/proprietary/vendor/bin/hw/android.hardware.thermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@1.0-service \
-    vendor/huawei/marie/proprietary/vendor/bin/hw/android.hardware.usb@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.0-service \
     vendor/huawei/marie/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
     vendor/huawei/marie/proprietary/vendor/bin/wpa_cli:$(TARGET_COPY_OUT_VENDOR)/bin/wpa_cli \
     vendor/huawei/marie/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
