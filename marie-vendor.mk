@@ -2364,9 +2364,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/marie/proprietary/vendor/etc/wifi/hostapd_hisi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/hostapd_hisi.conf \
     vendor/huawei/marie/proprietary/vendor/etc/wifi/p2p_supplicant_hisi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_hisi.conf \
     vendor/huawei/marie/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
-    vendor/huawei/marie/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
     vendor/huawei/marie/proprietary/vendor/etc/wifi/wpa_supplicant_hisi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_hisi.conf \
-    vendor/huawei/marie/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/huawei/marie/proprietary/vendor/firmware/BCM4345C0_003.001.025.0155.0263.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4345C0_003.001.025.0155.0263.hcd \
     vendor/huawei/marie/proprietary/vendor/firmware/CPU_RAM_SCHED.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CPU_RAM_SCHED.bin \
     vendor/huawei/marie/proprietary/vendor/firmware/CPU_RAM_WBS.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CPU_RAM_WBS.bin \
@@ -2919,7 +2917,6 @@ PRODUCT_PACKAGES += \
     hinetmanager \
     hisecd \
     hivwserver \
-    hostapd_hisi \
     android.hardware.configstore@1.1-service \
     android.hardware.drm@1.1-service.clearkey \
     android.hardware.drm@1.1-service.widevine \
@@ -2957,7 +2954,6 @@ PRODUCT_PACKAGES += \
     vendor.huawei.hardware.power@1.0-service \
     vendor.huawei.hardware.sensors@1.0-service \
     vendor.huawei.hardware.tp@1.0-service \
-    vendor.huawei.hardware.wifi@1.1-service \
     hwemerffu \
     iked \
     irqbalance \
@@ -2985,8 +2981,7 @@ PRODUCT_PACKAGES += \
     tpd \
     unrmd \
     wl \
-    wpa_cli_hisi \
-    wpa_supplicant_hisi
+    wpa_cli_hisi
 
 # Suffixed OEM binaries/libraries installed under their stock paths
 PRODUCT_COPY_FILES += \
@@ -3079,8 +3074,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/marie/proprietary/vendor/lib64/libhwc2onfbadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2onfbadapter.so \
     vendor/huawei/marie/proprietary/vendor/lib64/libhwminijail.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwminijail.so \
     vendor/huawei/marie/proprietary/vendor/lib64/libkeymaster3device.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster3device.so \
-    vendor/huawei/marie/proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
-    vendor/huawei/marie/proprietary/vendor/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so \
     vendor/huawei/marie/proprietary/vendor/lib64/libnbaio_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnbaio_mono.so \
     vendor/huawei/marie/proprietary/vendor/lib64/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so \
     vendor/huawei/marie/proprietary/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
@@ -3089,7 +3082,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/marie/proprietary/vendor/lib64/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstdc++.so \
     vendor/huawei/marie/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
     vendor/huawei/marie/proprietary/vendor/lib64/libwifi-hal-bcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-bcm.so \
-    vendor/huawei/marie/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     vendor/huawei/marie/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
     vendor/huawei/marie/proprietary/vendor/lib64/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediacas/libclearkeycasplugin.so \
     vendor/huawei/marie/proprietary/vendor/lib64/mediacas/libmockcasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediacas/libmockcasplugin.so \

@@ -35,7 +35,6 @@ ETC.marie-vendor-manifest.OVERRIDES += \
     camera.device@3.4-impl \
     cplay \
     gralloc.default \
-    hostapd_marie \
     libLLVM_android.vendor \
     libalsautils.vendor \
     libavservices_minijail_vendor \
@@ -50,8 +49,6 @@ ETC.marie-vendor-manifest.OVERRIDES += \
     libhwc2onfbadapter \
     libhwminijail \
     libkeymaster3device.vendor \
-    libkeystore-engine-wifi-hidl \
-    libkeystore-wifi-hidl \
     libldnhncr \
     libmockcasplugin \
     libnbaio_mono \
@@ -60,14 +57,12 @@ ETC.marie-vendor-manifest.OVERRIDES += \
     librilutils \
     libtinycompress \
     libvisualizer \
-    libwifi-hal \
     libwpa_client \
     local_time.default \
     power.default \
     rild \
     vibrator.default \
-    wpa_cli \
-    wpa_supplicant
+    wpa_cli
 
 marie_legacy_vendor_files := \
     etc/init/android.hardware.drm@1.1-service.clearkey.rc \
@@ -94,8 +89,6 @@ marie_legacy_vendor_files := \
     etc/modemConfig/observe_config_encryt.xml \
     etc/native_packages.xml \
     bin/hw/android.hardware.media.omx@1.0-service \
-    bin/hw/wpa_supplicant \
-    bin/hw/hostapd \
     default.prop \
     etc/vintf/compatibility_matrix.xml \
     bin/awk \
