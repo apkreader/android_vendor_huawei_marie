@@ -2200,8 +2200,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/marie/proprietary/vendor/etc/device_state_monitor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/device_state_monitor.conf \
     vendor/huawei/marie/proprietary/vendor/etc/dhcpcd/dhcpcd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/dhcpcd/dhcpcd.conf \
     vendor/huawei/marie/proprietary/vendor/etc/factory_modem.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/factory_modem.cfg \
-    vendor/huawei/marie/proprietary/vendor/etc/fs_config_dirs:$(TARGET_COPY_OUT_VENDOR)/etc/fs_config_dirs \
-    vendor/huawei/marie/proprietary/vendor/etc/fs_config_files:$(TARGET_COPY_OUT_VENDOR)/etc/fs_config_files \
     vendor/huawei/marie/proprietary/vendor/etc/fstab.kirin710:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.kirin710 \
     vendor/huawei/marie/proprietary/vendor/etc/fstab.modem:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.modem \
     vendor/huawei/marie/proprietary/vendor/etc/geoloc.conf:$(TARGET_COPY_OUT_VENDOR)/etc/geoloc.conf \
@@ -2863,6 +2861,7 @@ PRODUCT_PACKAGES += \
     libwifi_bcm \
     libwifi_ext.default \
     hisi_dummy_ko \
+    marie-vendor-manifest \
     manifest_skytone.xml \
     32e6a847-ac89-4f81-8a13-f4ae50451d7f.sec \
     335129cd-41fa-4b53-9797-5ccb202a52d4.sec \
