@@ -14,11 +14,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/marie/proprietary/vendor/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/etc/NOTICE.xml.gz \
     vendor/huawei/marie/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
     vendor/huawei/marie/proprietary/vendor/etc/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_effects.xml \
-    vendor/huawei/marie/proprietary/vendor/etc/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_policy_configuration.xml \
     vendor/huawei/marie/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
     vendor/huawei/marie/proprietary/vendor/etc/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
-    vendor/huawei/marie/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
-    vendor/huawei/marie/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/huawei/marie/proprietary/vendor/etc/blkcg_init.sh:$(TARGET_COPY_OUT_VENDOR)/etc/blkcg_init.sh \
     vendor/huawei/marie/proprietary/vendor/etc/bluetooth/bt_vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/bt_vendor.conf \
     vendor/huawei/marie/proprietary/vendor/etc/camera/bshutter/default/algo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bshutter/default/algo.xml \
@@ -2196,7 +2193,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/marie/proprietary/vendor/etc/cfg_stk_lx3_hisi_plus.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_stk_lx3_hisi_plus.ini \
     vendor/huawei/marie/proprietary/vendor/etc/cfg_stk_tl00_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_stk_tl00_hisi.ini \
     vendor/huawei/marie/proprietary/vendor/etc/component_version.txt:$(TARGET_COPY_OUT_VENDOR)/etc/component_version.txt \
-    vendor/huawei/marie/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/huawei/marie/proprietary/vendor/etc/device_state_monitor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/device_state_monitor.conf \
     vendor/huawei/marie/proprietary/vendor/etc/dhcpcd/dhcpcd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/dhcpcd/dhcpcd.conf \
     vendor/huawei/marie/proprietary/vendor/etc/factory_modem.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/factory_modem.cfg \
